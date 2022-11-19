@@ -1,13 +1,13 @@
 import cv2
-import numpy as np
-import os
+# import numpy as np
+# import os
 import sqlite3
-from PIL import Image
+# from PIL import Image
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +  'haarcascade_frontalface_default.xml')
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
-recognizer.read('/Users/ADMIN/PycharmProjects/pythonProject/recognizer/trainningData.yml')
+recognizer.read('./recognizer/trainningData.yml')
 
 def getProfile(id):
     conn = sqlite3.connect('/Users/ADMIN/PycharmProjects/PythonProject/data.db')
@@ -20,7 +20,7 @@ def getProfile(id):
     conn.close()
     return profile
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 fontface = cv2.FONT_HERSHEY_SIMPLEX
 
 while(True):
