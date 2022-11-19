@@ -4,7 +4,7 @@ import sqlite3
 import os
 
 def insertOrUpdate(id, name):
-    conn = sqlite3.connect('/Users/ADMIN/PycharmProjects/PythonProject/data.db')
+    conn = sqlite3.connect('./data.db')
 
     query = "SELECT * FROM people WHERE ID ="+ str(id)
     cusror = conn.execute(query)
