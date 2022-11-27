@@ -9,3 +9,9 @@ Pillow
 db-sqlite3
 pytz
 image
+
+paho-mqtt
+autopep8
+
+
+sqlparse
