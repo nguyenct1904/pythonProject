@@ -1,0 +1,49 @@
+# # Usage: pip install -r requirements.txt
+
+# autopep8
+aiofiles
+# aiohttp
+# #psycopg2
+# psycopg2-binary
+# python-jose
+# pydantic[email]
+
+# pandas
+# jwt
+# Pillow
+python-multipart
+# requests
+# SQLAlchemy
+# fastapi_sqlalchemy
+# alembic 
+# pandas
+# cryptography
+# passlib
+# jose
+
+# openpyxl
+# xlsxwriter
+
+
+# bcrypt
+
+# # confluent-kafka
+# kafka-python
+
+
+
+# # pusher_push_notifications
+
+# python-socketio
+
+# # Thingsboard
+# # tb-mqtt-client.
+
+# # fastAPI
+fastapi
+uvicorn[standard]
+
+# # build
+# # stdeb
+
+# fastapi-utils
