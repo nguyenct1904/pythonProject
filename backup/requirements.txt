@@ -1,0 +1,19 @@
+# Usage: pip install -r requirements.txt
+
+
+numpy==1.21.6
+
+opencv-python
+opencv-contrib-python
+Pillow
+db-sqlite3
+pytz
+image
+
+paho-mqtt
+autopep8
+
+pyinstaller
+
+sqlparse
+brython
